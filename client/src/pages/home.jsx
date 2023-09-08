@@ -30,7 +30,7 @@ const Home = () => {
         setLoading(true);
 
         try {
-            const response = await fetch('http://localhost:8000/api/posts', {
+            const response = await fetch('https://ai-backend-a30h.onrender.com/api/posts', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
