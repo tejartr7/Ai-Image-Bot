@@ -74,6 +74,7 @@ const Home = () => {
             <div>
                 <div className="text-center">
                     <h1 className="font-extrabold text-[#222328] text-4xl">Hello all!!👋</h1>
+                    <h1 className="font-extrabold text-[#222328] text-4xl">Note:Chatgpt api is revoked so just change the api key and the website will work fine:)</h1>
                     <p className="mx-auto mt-2 text-[#666e75] text-base max-w-[500px] text-center">Get into the world of AI 🤖</p>
                 </div>
             </div>
