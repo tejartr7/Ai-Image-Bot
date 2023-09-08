@@ -28,7 +28,7 @@ const Post = () => {
             try {
                 setLoading(true);
                 console.log(form);
-                const response = await fetch('http://localhost:8000/api/posts', {
+                const response = await fetch('https://ai-backend-a30h.onrender.com/api/posts', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ const Post = () => {
         if (form.prompt) {
             try {
                 setImages(true);
-                const response = await fetch('http://localhost:8000/api/dalle', {
+                const response = await fetch('https://ai-backend-a30h.onrender.com/api/dalle', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
